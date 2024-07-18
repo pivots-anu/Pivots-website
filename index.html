@@ -5,12 +5,30 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Coming Soon!</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                flex-direction: column;
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <img src="coming soon.png" alt="" >
-
-    
+    <img src="coming soon.png" alt="Coming Soon">
 </body>
 </html>
